@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#72c797">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=" Them Bai Hat"
+    android:padding="10dp"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:id="@+id/textThem"
+    android:textColor="#ff00"
+    />
+    <EditText
+         android:hint="Nhap Ten Bai Hat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textThem"
+        android:id="@+id/edittextThemBh"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/buttonThembh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/edittextThemBh"
+        android:text="Them"
+        />
+
+    <Button
+        android:id="@+id/buttonHuybh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittextThemBh"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/buttonThembh"
+        android:text="Huy" />
+</RelativeLayout>
